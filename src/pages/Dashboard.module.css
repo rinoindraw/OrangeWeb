@@ -1,6 +1,6 @@
 .dashboard {
   margin-top: 0;
-  padding: 50px 0 0 10px;
+  padding: 50px 0 0 100px;
   box-sizing: border-box;
 }
 
@@ -46,6 +46,7 @@ section {
 .chartWrapper {
   display: flex;
   max-width: 1200px;
+  margin-left: 20px;
 }
 
 .iconWrapper {
