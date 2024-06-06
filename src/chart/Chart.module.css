@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* margin: 1rem 2rem; */
+  margin-right: 50px;
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.chartLabel {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.chart {
+  width: 420px;
+  max-width: 420px;
+  height: auto;
+}
+
+
+.chartText {
+  margin-top: 0.5rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chartNumber {
+  margin-top: 0.5rem;
+  font-size: 20px;
+}
+
+.cardwrapper {
+  padding: 2rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 20px 35px #156437;
+  -moz-box-shadow: 1px 20px 35px #156437;
+  box-shadow: 1px 10px 35px #156437;
+  background-color: rgba(255, 125, 41, 0.7); 
+}
+@media (max-width: 768px) {
+  .chartContainer {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0 2.2rem 1.5rem;
+    width: 90%;
+    max-width: 360px;
+    height: auto;
+  }
+
+  .barContainer {
+    width: 90%;
+    max-width: 1140px;
+    height: 100%;
+    padding-bottom: 110px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .barChart {
+    width: 100%;
+    max-width: 100%;
+    height: 420px;
+  }
+
+  .cardwrapper {
+    padding: 1rem;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important; 
+  }
+
+  .chart {
+    width: 220px;
+    max-width: 220px;
+    height: 360px;
+  }
+  
+  
+}
