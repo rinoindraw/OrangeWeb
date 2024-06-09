@@ -7,6 +7,8 @@ import {
     FaCircle
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
+import skripsiLogo from "../assets/SkripsiRasyid2.png";
+
 
 
 const Sidebar = ({children}) => {
@@ -29,7 +31,7 @@ const Sidebar = ({children}) => {
         <div className="sidebar-container">
            <div style={{width: isOpen ? "180px" : "60px"}} className="sidebar">
                <div className="top_section">
-                   <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Sortir</h1>
+                   <img style={{display: isOpen ? "block" : "none"}} className="logo" src={skripsiLogo} alt='Gambar'/>
                    <div style={{marginLeft: isOpen ? "50px" : "0px"}} className="bars">
                        <FaBars onClick={toggle}/>
                    </div>

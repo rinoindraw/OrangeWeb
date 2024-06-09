@@ -4,6 +4,7 @@ import OrangeFruit from '../chart/OrangeChart';
 import GreenFruit from '../chart/GreenChart';
 import YellowFruit from '../chart/YellowChart';
 import styles from "./Dashboard.module.css";
+import skripsiLogo from "../assets/SkripsiRasyid2.png";
 
 const Dashboard = () => {
   return (
@@ -11,7 +12,7 @@ const Dashboard = () => {
       <div className={styles.container}>
         <div className={styles.dashboard}>
           <div className={styles.tittleWrapper}>
-            {/* <img className={styles.dashLogo} src={pkmLogo} alt="Logo" /> */}
+            <img className={styles.dashLogo} src={skripsiLogo} alt="Logo" />
             <div className="social-icon">
               {/* <a
                 href="https://www.instagram.com/rinoindraw/"

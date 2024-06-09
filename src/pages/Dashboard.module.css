@@ -29,7 +29,8 @@ section {
 }
 
 .dashboard img {
-  width: 86px;
+  margin-left: 20px;
+  width: 72px;
   border-radius: 20%;
 }
 
@@ -61,6 +62,7 @@ section {
     box-sizing: border-box;
     flex-grow: 1;
   }
+
   .chartWrapper {
     flex-direction: column;
     margin-left: 20px;
@@ -68,5 +70,28 @@ section {
 
   .dashLogo {
     display: none;
+  }
+}
+ 
+@media (max-width: 1080px) {
+  .dashboard {
+    margin-top: 0;
+    padding: 50px 0 0 50px;
+    width: 80%;
+    box-sizing: border-box;
+    flex-grow: 1;
+  }
+
+  .chartWrapper {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .dashLogo {
+    display: none;
+  }
+
+  .sectionDashboard {
+    background-image: none;
   }
 }

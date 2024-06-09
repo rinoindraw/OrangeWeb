@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import gundar from "../assets/gundarsmall.png";
-import skripsiLogo from "../assets/logo_skripsi.png";
+import skripsiLogo from "../assets/SkripsiRasyid3mid-01.png";
 // import "animate.css";
 
 const Banner = () => {
