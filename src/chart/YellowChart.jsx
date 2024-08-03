@@ -16,7 +16,7 @@ const YellowChart = () => {
     }
 
     const data = {
-      labels: ["Filled", "Remaining"],
+      labels: ["Remaining", "Filled"],
       datasets: [
         {
           data: [100 - yellowChart, yellowChart], // Menggunakan kapasitas metal yang diperoleh dari Firebase
