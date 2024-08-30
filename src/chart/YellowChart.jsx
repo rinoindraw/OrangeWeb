@@ -61,7 +61,7 @@ const YellowChart = () => {
 
   return (
     <div className={styles.chartContainer}>
-    <div className={styles.cardwrapper}>
+    <div className={styles.cardWrapperYellow}>
       <div>
         <canvas 
           className={styles.chart} 

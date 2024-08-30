@@ -39,7 +39,7 @@
   font-size: 20px;
 }
 
-.cardwrapper {
+.cardWrapper {
   padding: 2rem;
   border-radius: 30px;
   -webkit-box-shadow: 1px 20px 35px #156437;
@@ -47,6 +47,25 @@
   box-shadow: 1px 10px 35px #156437;
   background-color: rgba(255, 125, 41, 0.7); 
 }
+
+.cardWrapperGreen {
+  padding: 2rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 20px 35px #156437;
+  -moz-box-shadow: 1px 20px 35px #156437;
+  box-shadow: 1px 10px 35px #156437;
+  background-color: rgba(31, 155, 0, 0.7); 
+}
+
+.cardWrapperYellow {
+  padding: 2rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 20px 35px #156437;
+  -moz-box-shadow: 1px 20px 35px #156437;
+  box-shadow: 1px 10px 35px #156437;
+  background-color: rgba(139, 155, 0, 0.7); 
+}
+
 @media (max-width: 768px) {
   .chartContainer {
     display: flex;
